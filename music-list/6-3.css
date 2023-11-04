@@ -1,0 +1,34 @@
+.gl1 {
+    text-align: center;
+    color: rgb(4, 66, 87);
+}
+
+ol{
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+ul{
+    font-size: 14px;
+    font-weight: 500;
+    list-style-type: square;
+    text-transform: capitalize;
+}
+p {
+    font-size: 15px;
+    text-align: justify;
+    color: rgb(4, 66, 87);
+}
+ol{
+    color: rgb(4, 66, 87);
+}
+body{
+    font-family:'Noto Serif TC', serif;
+    background-image: url(54.jpg);
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 55px;
+}
+h1{
+    color: rgb(4, 66, 87);
+}
