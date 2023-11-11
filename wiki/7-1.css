@@ -1,0 +1,37 @@
+.right {
+    background-color: rgb(211, 211, 211);
+    border: 1px solid grey;
+    padding: 20px;
+    float: right;
+}
+
+.left {
+    background-color: rgb(211, 211, 211);
+    border: 1px solid grey;
+    padding: 20px;
+    float: left;
+}
+
+html{
+    scroll-behavior: smooth;
+
+}
+
+img {
+    width: 250px;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+a {
+    color: brown;
+}
+
+.menu {
+    background-color: rgb(211, 211, 211);
+    border: 1px solid grey;
+    padding: 20px;
+    width: 300px;
+}
