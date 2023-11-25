@@ -1,0 +1,74 @@
+body{
+    margin: 0px;
+}
+
+
+.logo {
+    width: 50px;
+}
+
+header {
+    padding-top: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex ;
+    background-color: blueviolet;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+
+.menu a{
+    box-shadow: ;
+    text-decoration: none;
+    margin: 5px;
+    color: darkblue;
+}
+
+.glv{
+    text-align: center;
+    font-family: cursive;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-shadow: 2px 2px 7px chartreuse;
+
+}
+
+.content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: cadetblue;
+    display: flex;
+}
+
+.card {
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    background-color: blueviolet;
+}
+
+img {
+    border-radius: 5px;
+    width: 100%;
+}
+p{
+    font-size: 1.2em;
+}
+
+footer{
+    background-color: rgba(59, 55, 55, 0.552);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 2em;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
+}
