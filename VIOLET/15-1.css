@@ -1,0 +1,92 @@
+body {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.logo {
+    width: 100px;
+    margin-bottom: 100px;
+}
+
+.violet {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 120px;
+    padding-right: 120px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(to right bottom, #483d5f, #2a2240);
+}
+
+button {
+    background-color: #ed9619;
+    font-weight: 900;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    border: 0;
+    color: white;
+}
+
+.left,
+.right {
+    width: 300px;
+    flex-grow: 1;
+}
+
+
+@media(max-width:991px) {
+    .violet {
+        padding: 60px;
+    }
+}
+
+@media(max-width:575px) {
+    .violet {
+        padding: 30px;
+    }
+
+    .logo {
+        margin-bottom: 40px;
+    }
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    flex-grow: 1;
+    padding: 10px;
+    margin: 5px;
+    align-items: center;
+}
+
+.white {
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.img {
+    padding: 7px;
+    width: 60px;
+}
+
+.card-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 200px;
+}
+
+footer{
+padding: 30px;
+padding-left: 120px;
+color: aliceblue;
+background-color: #201b2d;
+}
