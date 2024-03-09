@@ -1,0 +1,243 @@
+body {
+    margin: 0px;
+    width: 100%;
+}
+
+.logo-img {
+    color: #E6F449;
+    width: 130px;
+}
+
+.logo-text>p {
+    font-style: italic;
+    font-size: 2em;
+
+    padding-right: 10px;
+}
+
+.text-1,
+.text-2 {
+    border-left: 5px solid #E6F449;
+    padding-left: 10px;
+    margin: 15px;
+    color: #E6F449;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2F4858;
+    color: #E6F449;
+}
+
+.pizza {
+    text-align: center;
+    width: 165px;
+    height: 128px;
+    color: aqua;
+    padding-top: 7px;
+    margin: 20px;
+    box-sizing: border-box;
+    text-shadow: 0px 15px 6px 5px burlywood;
+    border-radius: 10px;
+}
+
+.pizza-father {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item-1 {
+    background-image: url(img/pizza1.jpg);
+}
+
+.item-2 {
+    background-image: url(img/pizza2.jpg);
+}
+
+.item-3 {
+    background-image: url(img/pizza3.jpg);
+}
+
+.item-4 {
+    background-image: url(img/pizza4.jpg);
+}
+
+.item-5 {
+    background-image: url(img/pizza5.jpg);
+}
+
+.item-6 {
+    background-image: url(img/pizza6.jpg);
+}
+
+.item-7 {
+    background-image: url(img/pizza7.jpg);
+}
+
+.item-8 {
+    background-image: url(img/pizza8.jpg);
+}
+
+.item-9 {
+    background-image: url(img/pizza9.jpg);
+}
+
+.dodatky {
+    background-image: url(img/1.png);
+    height: 400px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.dod-1 {
+    background-color: darkgrey;
+    color: burlywood;
+    margin: 20px;
+    padding: 15px;
+    align-self: center;
+}
+
+.dod-2 {
+    background-color: darkgrey;
+    color: burlywood;
+    margin: 20px;
+    padding: 15px;
+    align-self: flex-start;
+
+}
+
+.dod-3 {
+    background-color: darkgrey;
+    color: burlywood;
+    margin: 20px;
+    padding: 15px;
+    align-self: flex-end;
+}
+
+.dod-4 {
+    background-color: darkgrey;
+    color: burlywood;
+    margin: 20px;
+    padding: 15px;
+    align-self: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside {
+    width: 200px;
+    flex-grow: 3;
+    background-color: #6f3826;
+}
+
+main {
+    width: 400px;
+    flex-grow: 10;
+    background-color: #e66621ed;
+    color: #007462;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+li {
+    background-color: #dfbdc8;
+    margin: 10px;
+    padding: 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.big-text,
+.big-img {
+    width: 300px;
+    flex-grow: 1;
+    padding: 15px 30px;
+}
+
+
+.circle {
+    background-color: #e66621ed;
+    color: #6f3826;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+}
+
+.big-img>img {
+    border-radius: 15px;
+}
+
+.our-principal {
+    background-color: #EAD3C1;
+}
+
+
+.order {
+    flex-wrap: wrap-reverse;
+    order: 2;
+}
+
+footer {
+    background-color: #6f3826;
+    padding: 15px;
+}
+
+.social {
+    color: #dfbdc8;
+    font-size: 2.5em;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.face:hover {
+    color: blue;
+}
+
+.tik:hover {
+    color: black;
+}
+
+.ion:hover {
+    color: indigo;
+}
+
+.dis:hover {
+    color: #2F4858;
+}
+
+.basket:hover {
+    color: chocolate;
+}
+
+li{
+    background-color: #FFF3F7;
+    margin: 10px;
+    padding:15px;
+    transition: 0.5s;
+    box-shadow: 0px 0px 2px 2px white;
+}
+
+li:hover{
+    color: #6f3826;
+    background-color: #EAD3C1;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
