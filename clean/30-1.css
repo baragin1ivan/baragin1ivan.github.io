@@ -1,0 +1,76 @@
+body {
+    margin: 0px;
+}
+
+
+.row {
+    align-items: center;
+}
+
+.my-card-1 img {
+    width: 30%;
+}
+
+img {
+    width: 100%;
+}
+
+.fon-1 {
+    background-image: linear-gradient(to bottom, #86baff, #FBFBFB);
+    padding: 100px 0;
+    text-align: center;
+}
+
+.my-card-1 {
+    padding: 20px;
+}
+
+.wmn {
+    width: 80%;
+}
+
+.my-card-2 img {
+    width: 40%;
+    justify-content: center;
+}
+
+.phota {
+    align-items: center;
+}
+
+.abc {
+    color: white;
+}
+
+.fon-2 {
+    border-radius: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: linear-gradient(to right, rgb(114, 114, 179), rgb(167, 167, 216), rgb(83, 83, 226));
+}
+
+.fon-3 {
+    border-radius: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: linear-gradient(to right, rgb(28, 73, 223), rgb(52, 60, 129), rgb(159, 178, 194));
+}
+
+button {
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+ul {
+    list-style-image: url(list-img.png);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.d-flex {
+    justify-content: space-between;
+}
