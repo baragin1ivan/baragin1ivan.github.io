@@ -1,0 +1,77 @@
+img {
+    width: 100%;
+}
+
+.bg{
+    background-color: aqua;
+}
+
+body {
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0.859);
+    color: beige;
+}
+
+.first-video {
+    width: 100%;
+}
+
+.creat {
+    border-radius: 10px;
+}
+
+.sagolov {
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 25px;
+    color: aliceblue;
+
+}
+
+.g {
+    width: 70%;
+    border-radius: 5%;
+}
+
+.horizontal-ol {
+    display: flex;
+}
+
+.horizontal-ol li {
+    margin: 20px;
+}
+
+@media (max-width: 768px) {
+    .horizontal-ol {
+        flex-direction: column;
+    }
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.859);
+}
+
+.appl-hrf{
+    color: cadetblue;
+}
+
+.photo{
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.txt-hrf{
+    font-family: "Arimo", sans-serif;
+}
+
+.i13jpj{
+    width: 60%;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    height:    auto;
+    justify-content: center;
+}
+
+.row{
+    display: flex;
+}
