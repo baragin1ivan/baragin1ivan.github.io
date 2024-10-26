@@ -97,7 +97,9 @@
             bird.style.top = newTop + 'px';
             
         }
-setTimeout(move, 2000);
+let time = setInterval(() => {
+            move();
+        },2000)
         
 
 
