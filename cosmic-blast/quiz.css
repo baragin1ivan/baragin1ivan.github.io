@@ -1,0 +1,73 @@
+/* Стилі для основної сторінки */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+    background-color: #28a746bd;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#question-container {
+    margin-bottom: 20px;
+}
+
+#answers {
+    margin: 20px 0;
+}
+
+.answer-btn {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.answer-btn:hover {
+    background-color: #555;
+}
+
+#next-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#next-btn:disabled {
+    background-color: #888;
+}
+
+.hidden {
+    display: none;
+}
+
+#result {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    font-weight: bold;
+}
